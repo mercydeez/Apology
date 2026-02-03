@@ -116,10 +116,16 @@ body {
   position: relative;
 }
 
-.six img {
+.six img.girl-dp {
   display: inline-block;
-  max-width: 45%;
+  max-width: 350px;
+  width: 90%;
   height: auto;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+  margin: 20px auto;
+  border: 5px solid rgba(255, 255, 255, 0.8);
 }
 
 .six .hat {
@@ -283,6 +289,12 @@ body {
   .six .hat {
     width: 50px;
     top: -20px;
+  }
+
+  .six img.girl-dp {
+    max-width: 280px;
+    width: 85%;
+    border-radius: 15px;
   }
 
   .wish-hbd {
